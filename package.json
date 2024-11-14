@@ -3,15 +3,10 @@
   "version": "2.0.0",
   "private": true,
   "scripts": {
-   
-  "start": "react-scripts start",
-  "build": "react-scripts build",
     "dev": "next dev",
-   
-    "sass": "sass --watch public/assets/scss/style.scss:public/assets/css/style.css",
-          
-    "export": "next export",       
-    "lint": "next lint"    
+    "build": "next build",
+    "start": "next start",
+    "export": "next export"
   },
   "dependencies": {
     "eslint": "8.37.0",
@@ -20,7 +15,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-modal-video": "^2.0.0",
-    "react-scripts": "^5.0.1",
+    "react-script": "^2.0.5",
     "sass": "^1.61.0",
     "swiper": "^9.2.0",
     "wowjs": "^1.1.3"
