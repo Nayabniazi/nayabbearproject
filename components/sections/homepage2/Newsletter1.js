@@ -37,7 +37,7 @@ export default function Newsletter1() {
                                                 </div>
                                             </div>
                                             <div className="col-md-12">
-                                                <input className="btn btn-brand-1-big" type="submit" defaultValue="Submit Now" />
+                                                <input className="btn btn-brand-1-big" type="submit" defaultValue="Submit Now" style={{backgroundColor:'orange'}}/>
                                             </div>
                                         </div>
                                     </form>

@@ -16,7 +16,7 @@ export default function Faq() {
                                 <form action="#">
                                     <div className="form-group">
                                         <input className="form-control" type="text" placeholder="Enter keyword" />
-                                        <input className="btn btn-brand-1 btn-track" type="submit" defaultValue="Find the answer" />
+                                        <input className="btn btn-brand-1 btn-track" type="submit" defaultValue="Find the answer"style={{backgroundColor:'orange'}} />
                                     </div>
                                 </form>
                             </div>
@@ -80,7 +80,7 @@ export default function Faq() {
                                     <Accordion />
                                     <div className="line-border mt-50 mb-50" />
                                     <h3 className="color-brand-2 wow animate__animated animate__fadeIn">Nead more help?</h3>
-                                    <div className="mt-20"><Link className="btn btn-brand-1-big mr-20 wow animate__animated animate__fadeIn" href="/contact">Contact Us</Link><Link className="btn btn-link-medium wow animate__animated animate__fadeIn" href="#">Learn More
+                                    <div className="mt-20"><Link className="btn btn-brand-1-big mr-20 wow animate__animated animate__fadeIn" href="/contact"style={{backgroundColor:'orange'}}>Contact Us</Link><Link className="btn btn-link-medium wow animate__animated animate__fadeIn" href="#">Learn More
                                         <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                                         </svg></Link></div>
@@ -125,7 +125,7 @@ export default function Faq() {
                                                     </div>
                                                 </div>
                                                 <div className="col-md-12">
-                                                    <input className="btn btn-brand-1-big" type="submit" defaultValue="Submit Now" />
+                                                    <input className="btn btn-brand-1-big" type="submit" defaultValue="Submit Now" style={{backgroundColor:'orange'}}/>
                                                 </div>
                                             </div>
                                         </form>
@@ -134,7 +134,7 @@ export default function Faq() {
                                 <div className="col-xl-4 col-lg-5 position-relative">
                                     <div className="box-contactform-right">
                                         <h5 className="color-brand-2 mb-35 wow animate__animated animate__fadeIn">Headquarters</h5>
-                                        <div className="map-info"><img className="mb-25 wow animate__animated animate__fadeIn" src="/assets/imgs/template/logo.svg" alt="transp" />
+                                        <div className="map-info"><img className="mb-25 wow animate__animated animate__fadeIn" src="/img/bear.png.png" width={180} height={100} alt="transp" />
                                             <p className="color-grey-700 mb-25 wow animate__animated animate__fadeIn">4517 Washington Ave. Manchester, Kentucky 39495</p>
                                             <p className="color-grey-700 mb-10 wow animate__animated animate__fadeIn">
                                                 <svg className="icon-16 mr-10 color-brand-1" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
@@ -159,7 +159,7 @@ export default function Faq() {
                 <section className="section pt-20 pb-120">
                     <div className="container">
                         <div className="row align-items-center">
-                            <div className="col-lg-6"><span className="btn btn-tag wow animate__animated animate__fadeIn">Get in touch</span>
+                            <div className="col-lg-6"><span className="btn btn-tag wow animate__animated animate__fadeIn"style={{backgroundColor:'orange'}}>Get in touch</span>
                                 <h3 className="color-grey-900 mb-20 mt-15 wow animate__animated animate__fadeIn">Proud to Deliver<br className="d-none d-lg-block" />Excellence Every Time</h3>
                                 <p className="font-md color-grey-900 mb-40 wow animate__animated animate__fadeIn">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum — semper quis lectus nulla. Interactively transform magnetic growth strategies whereas prospective "outside the box" thinking.</p>
                                 <div className="row">
@@ -172,7 +172,7 @@ export default function Faq() {
                                         <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn">The latest design trends meet hand-crafted templates.</p>
                                     </div>
                                 </div>
-                                <div className="mt-20"><Link className="btn btn-brand-2 mr-20 wow animate__animated animate__fadeIn" href="/contact">Contact Us</Link><Link className="btn btn-link-medium wow animate__animated animate__fadeIn" href="#">Learn More
+                                <div className="mt-20"><Link className="btn btn-brand-2 mr-20 wow animate__animated animate__fadeIn" href="/contact"style={{backgroundColor:'orange',color:'black'}}>Contact Us</Link><Link className="btn btn-link-medium wow animate__animated animate__fadeIn" href="#">Learn More
                                     <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                                     </svg></Link></div>
@@ -222,7 +222,7 @@ export default function Faq() {
                                                     </div>
                                                 </div>
                                                 <div className="col-md-12">
-                                                    <input className="btn btn-brand-1-big" type="submit" defaultValue="Submit Now" />
+                                                    <input className="btn btn-brand-1-big" type="submit" defaultValue="Submit Now"style={{backgroundColor:'orange'}} />
                                                 </div>
                                             </div>
                                         </form>

@@ -33,7 +33,7 @@ export default function Service() {
             <Layout>
                 <section className="section">
                     <div className="container">
-                        <div className="box-pageheader-1 box-pageheader-services text-center"><span className="btn btn-tag wow animate__animated animate__fadeIn">What we offer</span>
+                        <div className="box-pageheader-1 box-pageheader-services text-center"><span className="btn btn-tag wow animate__animated animate__fadeIn"style={{backgroundColor:'orange'}}>What we offer</span>
                             <h2 className="color-brand-2 mt-15 mb-10 wow animate__animated animate__fadeIn">Our Services</h2>
                             <p className="font-md color-grey-900 wow animate__animated animate__fadeIn">We have been pioneering the industry in Europe for 20 years, and delivering value<br className="d-none d-lg-block" />products within given timeframe, every single time.</p>
                         </div>
@@ -105,7 +105,7 @@ export default function Service() {
                 <section className="section pt-20 pb-120">
                     <div className="container">
                         <div className="row align-items-center">
-                            <div className="col-lg-6"><span className="btn btn-tag wow animate__animated animate__fadeIn">Get in touch</span>
+                            <div className="col-lg-6"><span className="btn btn-tag wow animate__animated animate__fadeIn"style={{backgroundColor:'orange'}}>Get in touch</span>
                                 <h3 className="color-grey-900 mb-20 mt-15 wow animate__animated animate__fadeIn">Proud to Deliver<br className="d-none d-lg-block" />Excellence Every Time</h3>
                                 <p className="font-md color-grey-900 mb-40 wow animate__animated animate__fadeIn">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum — semper quis lectus nulla. Interactively transform magnetic growth strategies whereas prospective "outside the box" thinking.</p>
                                 <div className="row">
@@ -118,7 +118,7 @@ export default function Service() {
                                         <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn">The latest design trends meet hand-crafted templates.</p>
                                     </div>
                                 </div>
-                                <div className="mt-20"><Link className="btn btn-brand-2 mr-20 wow animate__animated animate__fadeIn" href="/contact">Contact Us</Link><Link className="btn btn-link-medium wow animate__animated animate__fadeIn" href="#">Learn More
+                                <div className="mt-20"><Link className="btn btn-brand-2 mr-20 wow animate__animated animate__fadeIn" href="/contact"style={{backgroundColor:'orange',color:'black'}}>Contact Us</Link><Link className="btn btn-link-medium wow animate__animated animate__fadeIn" href="#">Learn More
                                     <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                                     </svg></Link></div>
@@ -138,7 +138,7 @@ export default function Service() {
                         <div className="row align-items-center">
                             <div className="col-lg-1" />
                             <div className="col-lg-5 mb-30"><img className="mb-20" src="/assets/imgs/template/icons/favicon.svg" alt="transp" />
-                                <h2 className="color-white mb-50 wow animate__animated animate__fadeIn">We take care about<span className="color-brand-1">transportation</span>for your business</h2><Link className="btn btn-brand-1 hover-up wow animate__animated animate__fadeIn" href="#">
+                                <h2 className="color-white mb-50 wow animate__animated animate__fadeIn">We take care about<span className="color-brand-1">transportation</span>for your business</h2><Link className="btn btn-brand-1 hover-up wow animate__animated animate__fadeIn" href="#"style={{backgroundColor:'orange'}}>
                                     <svg className="mr-10" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                                         <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
                                     </svg>View All Projects</Link>
@@ -259,7 +259,7 @@ export default function Service() {
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div className="col-lg-12"><Link className="btn btn-brand-1-big mr-25" href="#">
+                                            <div className="col-lg-12"><Link className="btn btn-brand-1-big mr-25" href="#"style={{backgroundColor:'orange'}}>
                                                 <svg fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                                                     <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 15.75V18m-7.5-6.75h.008v.008H8.25v-.008zm0 2.25h.008v.008H8.25V13.5zm0 2.25h.008v.008H8.25v-.008zm0 2.25h.008v.008H8.25V18zm2.498-6.75h.007v.008h-.007v-.008zm0 2.25h.007v.008h-.007V13.5zm0 2.25h.007v.008h-.007v-.008zm0 2.25h.007v.008h-.007V18zm2.504-6.75h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V13.5zm0 2.25h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V18zm2.498-6.75h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V13.5zM8.25 6h7.5v2.25h-7.5V6zM12 2.25c-1.892 0-3.758.11-5.593.322C5.307 2.7 4.5 3.65 4.5 4.757V19.5a2.25 2.25 0 002.25 2.25h10.5a2.25 2.25 0 002.25-2.25V4.757c0-1.108-.806-2.057-1.907-2.185A48.507 48.507 0 0012 2.25z" />
                                                 </svg>Cost Calculation</Link><Link className="btn btn-link-medium" href="/contact">Contact Us
@@ -335,7 +335,7 @@ export default function Service() {
                                     <Accordion />
                                     <div className="line-border mt-50 mb-50" />
                                     <h3 className="color-brand-2 wow animate__animated animate__fadeIn">Nead more help?</h3>
-                                    <div className="mt-20"><Link className="btn btn-brand-1-big mr-20 wow animate__animated animate__fadeIn" href="/contact">Contact Us</Link><Link className="btn btn-link-medium wow animate__animated animate__fadeIn" href="#">Learn More
+                                    <div className="mt-20"><Link className="btn btn-brand-1-big mr-20 wow animate__animated animate__fadeIn" href="/contact"style={{backgroundColor:'orange'}}>Contact Us</Link><Link className="btn btn-link-medium wow animate__animated animate__fadeIn" href="#">Learn More
                                         <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                                         </svg></Link></div>
@@ -379,7 +379,7 @@ export default function Service() {
                                                     </div>
                                                 </div>
                                                 <div className="col-md-12">
-                                                    <input className="btn btn-brand-1-big" type="submit" defaultValue="Submit Now" />
+                                                    <input className="btn btn-brand-1-big" type="submit" defaultValue="Submit Now" style={{backgroundColor:'orange'}}/>
                                                 </div>
                                             </div>
                                         </form>

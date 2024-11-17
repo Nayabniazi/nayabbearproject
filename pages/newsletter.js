@@ -115,10 +115,10 @@ export default function Newsletter() {
                 <section className="section mt-50 newsletter-style">
                     <div className="container-sub">
                         <div className="row align-items-center">
-                            <div className="col-sm-5"> <span className="btn btn-tag font-xxs">Get in touch</span>
+                            <div className="col-sm-5"> <span className="btn btn-tag font-xxs"style={{backgroundColor:'orange',color:'black'}}>Get in touch</span>
                                 <h3 className="color-brand-2 font-16-bold mb-10 mt-10">Proud to Deliver <br className="d-none d-lg-block" />Excellence Every Time</h3>
                                 <p className="font-xxs color-grey-500 mb-20">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum — semper quis lectus nulla. Interactively transform magnetic growth strategies whereas prospective "outside the box" thinking.</p>
-                                <div className="mt-20"> <Link className="btn btn-brand-2 mr-20 font-xxs-medium" href="/contact">Contact Us</Link><Link className="btn btn-link-medium font-xxs-medium" href="#">Learn More
+                                <div className="mt-20"> <Link className="btn btn-brand-2 mr-20 font-xxs-medium" href="/contact"style={{backgroundColor:'orange',color:'black'}}>Contact Us</Link><Link className="btn btn-link-medium font-xxs-medium" href="#">Learn More
                                     <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                                     </svg></Link></div>
@@ -187,7 +187,7 @@ export default function Newsletter() {
                 <section className="section mt-55 bg-1 position-relative newsletter-style block-info-3">
                     <div className="container-sub position-relative">
                         <div className="row">
-                            <div className="col-sm-6 pt-25 pb-25"> <span className="btn btn-tag">Get in touch</span>
+                            <div className="col-sm-6 pt-25 pb-25"> <span className="btn btn-tag"style={{backgroundColor:'orange'}}>Get in touch</span>
                                 <h6 className="color-brand-2 font-16-bold mb-15 mt-10">Proud to Deliver <br className="d-none d-lg-block" />Excellence Every Time</h6>
                                 <p className="font-xxs color-grey-900 mb-20">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum — semper quis lectus nulla. Interactively transform magnetic growth strategies whereas prospective "outside the box" thinking.</p>
                                 <div className="row">
@@ -200,7 +200,7 @@ export default function Newsletter() {
                                         <p className="font-xxs color-grey-900">The latest design trends meet hand-crafted templates.</p>
                                     </div>
                                 </div>
-                                <div className="mt-0"> <Link className="btn btn-brand-2 font-xxs mr-20" href="/contact">Contact Us</Link><Link className="btn btn-link-medium font-xxs" href="#">Learn More
+                                <div className="mt-0"> <Link className="btn btn-brand-2 font-xxs mr-20" href="/contact"style={{backgroundColor:'orange',color:'black'}}>Contact Us</Link><Link className="btn btn-link-medium font-xxs" href="#">Learn More
                                     <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                                     </svg></Link></div>
@@ -289,7 +289,7 @@ export default function Newsletter() {
                                         <div className="author-info"><Link href="#"><span className="font-xl-bold color-brand-2 author-name">Guy Hawkins</span></Link><span className="font-sm color-grey-500 department">Bank of America</span></div>
                                     </div>
                                     <p className="font-md color-grey-700">Access the same project through five different dynamic views: a kanban board, Gantt chart, spreadsheet, calendar or simple task list.</p>
-                                    <div className="card-bottom-info justify-content-between">
+                                    <div className="card-bottom-info justify-content-between"style={{backgroundColor:'black'}}>
                                         <div className="rating text-start"><img src="/assets/imgs/template/icons/star.svg" alt="transp" /><img src="/assets/imgs/template/icons/star.svg" alt="transp" /><img src="/assets/imgs/template/icons/star.svg" alt="transp" /><img src="/assets/imgs/template/icons/star.svg" alt="transp" /><img src="/assets/imgs/template/icons/star.svg" alt="transp" /><br /><span className="font-sm color-white">For customer support</span></div><span className="font-xs color-grey-500 rate-post text-end">Rate: 4.95 / 5</span>
                                     </div>
                                 </div>
@@ -300,8 +300,8 @@ export default function Newsletter() {
                                         <div className="author-info"><Link href="#"><span className="font-xl-bold color-brand-2 author-name">Eleanor Pena</span></Link><span className="font-sm color-grey-500 department">Bank of America</span></div>
                                     </div>
                                     <p className="font-md color-grey-700">Access the same project through five different dynamic views: a kanban board, Gantt chart, spreadsheet, calendar or simple task list.</p>
-                                    <div className="card-bottom-info justify-content-between">
-                                        <div className="rating text-start"><img src="/assets/imgs/template/icons/star.svg" alt="transp" /><img src="/assets/imgs/template/icons/star.svg" alt="transp" /><img src="/assets/imgs/template/icons/star.svg" alt="transp" /><img src="/assets/imgs/template/icons/star.svg" alt="transp" /><img src="/assets/imgs/template/icons/star.svg" alt="transp" /><br /><span className="font-sm color-white">For customer support</span></div><span className="font-xs color-grey-500 rate-post text-end">Rate: 4.95 / 5</span>
+                                    <div className="card-bottom-info justify-content-between"style={{backgroundColor:'black'}}>
+                                        <div className="rating text-start"><img src="/assets/imgs/template/icons/star.svg" alt="transp" /><img src="/assets/imgs/template/icons/star.svg" alt="transp" /><img src="/assets/imgs/template/icons/star.svg" alt="transp" /><img src="/assets/imgs/template/icons/star.svg" alt="transp" /><img src="/assets/imgs/template/icons/star.svg" alt="transp" /><br /><span className="font-sm color-white"style={{backgroundColor:'black'}}>For customer support</span></div><span className="font-xs color-grey-500 rate-post text-end">Rate: 4.95 / 5</span>
                                     </div>
                                 </div>
                             </div>
@@ -311,8 +311,8 @@ export default function Newsletter() {
                                         <div className="author-info"><Link href="#"><span className="font-xl-bold color-brand-2 author-name">Cody Fisher</span></Link><span className="font-sm color-grey-500 department">Bank of America</span></div>
                                     </div>
                                     <p className="font-md color-grey-700">Access the same project through five different dynamic views: a kanban board, Gantt chart, spreadsheet, calendar or simple task list.</p>
-                                    <div className="card-bottom-info justify-content-between">
-                                        <div className="rating text-start"><img src="/assets/imgs/template/icons/star.svg" alt="transp" /><img src="/assets/imgs/template/icons/star.svg" alt="transp" /><img src="/assets/imgs/template/icons/star.svg" alt="transp" /><img src="/assets/imgs/template/icons/star.svg" alt="transp" /><img src="/assets/imgs/template/icons/star.svg" alt="transp" /><br /><span className="font-sm color-white">For customer support</span></div><span className="font-xs color-grey-500 rate-post text-end">Rate: 4.95 / 5</span>
+                                    <div className="card-bottom-info justify-content-between"style={{backgroundColor:'black'}}>
+                                        <div className="rating text-start"><img src="/assets/imgs/template/icons/star.svg" alt="transp" /><img src="/assets/imgs/template/icons/star.svg" alt="transp" /><img src="/assets/imgs/template/icons/star.svg" alt="transp" /><img src="/assets/imgs/template/icons/star.svg" alt="transp" /><img src="/assets/imgs/template/icons/star.svg" alt="transp" /><br /><span className="font-sm color-white"style={{backgroundColor:'black'}}>For customer support</span></div><span className="font-xs color-grey-500 rate-post text-end">Rate: 4.95 / 5</span>
                                     </div>
                                 </div>
                             </div>
@@ -322,8 +322,8 @@ export default function Newsletter() {
                                         <div className="author-info"><Link href="#"><span className="font-xl-bold color-brand-2 author-name">Cody Fisher</span></Link><span className="font-sm color-grey-500 department">Bank of America</span></div>
                                     </div>
                                     <p className="font-md color-grey-700">Access the same project through five different dynamic views: a kanban board, Gantt chart, spreadsheet, calendar or simple task list.</p>
-                                    <div className="card-bottom-info justify-content-between">
-                                        <div className="rating text-start"><img src="/assets/imgs/template/icons/star.svg" alt="transp" /><img src="/assets/imgs/template/icons/star.svg" alt="transp" /><img src="/assets/imgs/template/icons/star.svg" alt="transp" /><img src="/assets/imgs/template/icons/star.svg" alt="transp" /><img src="/assets/imgs/template/icons/star.svg" alt="transp" /><br /><span className="font-sm color-white">For customer support</span></div><span className="font-xs color-grey-500 rate-post text-end">Rate: 4.95 / 5</span>
+                                    <div className="card-bottom-info justify-content-between"style={{backgroundColor:'black'}}>
+                                        <div className="rating text-start"><img src="/assets/imgs/template/icons/star.svg" alt="transp" /><img src="/assets/imgs/template/icons/star.svg" alt="transp" /><img src="/assets/imgs/template/icons/star.svg" alt="transp" /><img src="/assets/imgs/template/icons/star.svg" alt="transp" /><img src="/assets/imgs/template/icons/star.svg" alt="transp" /><br /><span className="font-sm color-white"style={{backgroundColor:'black'}}>For customer support</span></div><span className="font-xs color-grey-500 rate-post text-end">Rate: 4.95 / 5</span>
                                     </div>
                                 </div>
                             </div>
@@ -409,9 +409,9 @@ export default function Newsletter() {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="col-lg-12"> <Link className="btn btn-brand-1-big mr-25" href="#">
+                                    <div className="col-lg-12"> <Link className="btn btn-brand-1-big mr-25" href="#"style={{backgroundColor:'orange'}}>
                                         <svg fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                                            <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 15.75V18m-7.5-6.75h.008v.008H8.25v-.008zm0 2.25h.008v.008H8.25V13.5zm0 2.25h.008v.008H8.25v-.008zm0 2.25h.008v.008H8.25V18zm2.498-6.75h.007v.008h-.007v-.008zm0 2.25h.007v.008h-.007V13.5zm0 2.25h.007v.008h-.007v-.008zm0 2.25h.007v.008h-.007V18zm2.504-6.75h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V13.5zm0 2.25h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V18zm2.498-6.75h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V13.5zM8.25 6h7.5v2.25h-7.5V6zM12 2.25c-1.892 0-3.758.11-5.593.322C5.307 2.7 4.5 3.65 4.5 4.757V19.5a2.25 2.25 0 002.25 2.25h10.5a2.25 2.25 0 002.25-2.25V4.757c0-1.108-.806-2.057-1.907-2.185A48.507 48.507 0 0012 2.25z" />
+                                            <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 15.75V18m-7.5-6.75h.008v.008H8.25v-.008zm0 2.25h.008v.008H8.25V13.5zm0 2.25h.008v.008H8.25v-.008zm0 2.25h.008v.008H8.25V18zm2.498-6.75h.007v.008h-.007v-.008zm0 2.25h.007v.008h-.007V13.5zm0 2.25h.007v.008h-.007v-.008zm0 2.25h.007v.008h-.007V18zm2.504-6.75h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V13.5zm0 2.25h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V18zm2.498-6.75h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V13.5zM8.25 6h7.5v2.25h-7.5V6zM12 2.25c-1.892 0-3.758.11-5.593.322C5.307 2.7 4.5 3.65 4.5 4.757V19.5a2.25 2.25 0 002.25 2.25h10.5a2.25 2.25 0 002.25-2.25V4.757c0-1.108-.806-2.057-1.907-2.185A48.507 48.507 0 0012 2.25z"style={{backgroundColor:'orange'}} />
                                         </svg>Cost Calculation</Link><Link className="btn btn-link-medium" href="/contact">Contact Us
                                             <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -427,7 +427,7 @@ export default function Newsletter() {
                         <div className="row">
                             <div className="col-sm-6">
                                 <div className="card-blog-grid hover-up">
-                                    <div className="card-image"><Link href="/blog-single"><img src="/assets/imgs/page/homepage2/news1.png" alt="transp" /></Link><Link className="btn btn-border-brand-1 mr-15" href="/blog">Shipping</Link></div>
+                                    <div className="card-image"><Link href="/blog-single"><img src="/assets/imgs/page/homepage2/news1.png" alt="transp" /></Link><Link className="btn btn-border-brand-1 mr-15" href="/blog"style={{backgroundColor:'orange'}}>Shipping</Link></div>
                                     <div className="card-info"><Link href="/blog-single">
                                         <h5 className="color-brand-2">How to find reliable logistics company in China and Asia</h5></Link>
                                         <p className="font-sm color-grey-500 mt-20">Fusce dictum ullamcorper dui, id dignissim arcu volutpat vitae. Aenean mattis vestibulum odio eu facilisis. Aenean quam arcu, blandit at aliquet sit amet, convallis nec risus.</p>
@@ -441,7 +441,7 @@ export default function Newsletter() {
                             </div>
                             <div className="col-sm-6">
                                 <div className="card-blog-grid hover-up">
-                                    <div className="card-image"><Link href="/blog-single"><img src="/assets/imgs/page/homepage2/news2.png" alt="transp" /></Link><Link className="btn btn-border-brand-1 mr-15" href="/blog">Shipping</Link></div>
+                                    <div className="card-image"><Link href="/blog-single"><img src="/assets/imgs/page/homepage2/news2.png" alt="transp" /></Link><Link className="btn btn-border-brand-1 mr-15" href="/blog"style={{backgroundColor:'orange'}}>Shipping</Link></div>
                                     <div className="card-info"><Link href="/blog-single">
                                         <h5 className="color-brand-2">How to find reliable logistics company in China and Asia</h5></Link>
                                         <p className="font-sm color-grey-500 mt-20">Fusce dictum ullamcorper dui, id dignissim arcu volutpat vitae. Aenean mattis vestibulum odio eu facilisis. Aenean quam arcu, blandit at aliquet sit amet, convallis nec risus.</p>

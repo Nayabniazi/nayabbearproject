@@ -22,8 +22,8 @@ export default function Testimonial4() {
                                     <p className="font-md color-grey-700">Access the same project through five different dynamic
                                         views: a kanban board, Gantt chart, spreadsheet, calendar or simple task list. a
                                         kanban board, Gantt chart, spreadsheet, calendar or simple task list.</p>
-                                    <div className="card-bottom-info justify-content-between">
-                                        <div className="rating text-start"><img src="/assets/imgs/template/icons/star.svg" alt="transp" /><img src="/assets/imgs/template/icons/star.svg" alt="transp" /><img src="/assets/imgs/template/icons/star.svg" alt="transp" /><img src="/assets/imgs/template/icons/star.svg" alt="transp" /><img src="/assets/imgs/template/icons/star.svg" alt="transp" /><br /><span className="font-sm color-white">For customer
+                                    <div className="card-bottom-info justify-content-between"style={{backgroundColor:'black'}}>
+                                        <div className="rating text-start"><img src="/assets/imgs/template/icons/star.svg" alt="transp" /><img src="/assets/imgs/template/icons/star.svg" alt="transp" /><img src="/assets/imgs/template/icons/star.svg" alt="transp" /><img src="/assets/imgs/template/icons/star.svg" alt="transp" s/><img src="/assets/imgs/template/icons/star.svg" alt="transp" /><br /><span className="font-sm color-white"style={{backgroundColor:'black'}}>For customer
                                             support</span></div><span className="font-xs color-grey-500 rate-post text-end">Rate: 4.95 / 5</span>
                                     </div>
                                 </div>

@@ -15,7 +15,7 @@ export default function Howitwork1() {
                         <div className="col-lg-6 mb-30">
                             <div className="box-image-how"><img className="w-100 wow animate__animated animate__fadeIn" src="/assets/imgs/page/homepage1/how-it-work.png" alt="transp" />
                                 <div className="box-info-bottom-img">
-                                    <div className="image-play"><img className="mb-15 wow animate__animated animate__fadeIn" src="/assets/imgs/template/icons/play.svg" alt="transp" /></div>
+                                    <div className="image-play"><img className="mb-15 wow animate__animated animate__fadeIn" src="/assets/imgs/template/icons/play.svg" alt="transp"  /></div>
                                     <div className="info-play">
                                         <h4 className="color-white mb-15 wow animate__animated animate__fadeIn">We have 25 years
                                             experience in this passion</h4>
@@ -33,7 +33,7 @@ export default function Howitwork1() {
                                     <div className="info-how">
                                         <h5 className="color-brand-2 wow animate__animated animate__fadeIn">Customer places
                                             order</h5>
-                                        <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">Inspection
+                                        <p className="font-md color-black-700 wow animate__animated animate__fadeIn">Inspection
                                             and quality check of goods</p>
                                     </div>
                                 </li>

@@ -46,6 +46,8 @@ export default function CountUp({ end, duration }) {
   const startCount = () => {
     setCount(0)
   }
+ 
+
 
   return (
     <span ref={countRef}>

@@ -14,7 +14,7 @@ export default function Info6() {
                             <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="vfhzo499OeA" onClose={() => setOpen(false)} />
                         </div>
                         <div className="col-lg-6 mb-50">
-                            <div className="box-info-6"><span className="btn btn-tag wow animate__animated animate__fadeIn">Who We
+                            <div className="box-info-6"><span className="btn btn-tag wow animate__animated animate__fadeIn"style={{backgroundColor:'orange'}}>Who We
                                 Are?</span>
                                 <h2 className="color-grey-900 mb-20 mt-15 wow animate__animated animate__fadeIn">We are the
                                     world's leading shipping service provider</h2>

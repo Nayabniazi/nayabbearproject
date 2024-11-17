@@ -61,7 +61,7 @@ export default function Info1() {
                                         </li>
                                     </ul>
                                 </div>
-                                <div className="mt-30 text-start d-flex wow animate__animated animate__fadeIn"><Link className="hover-up mr-10" href="#"><img src="/assets/imgs/template/appstore-btn.png" alt="transp" /></Link><Link className="hover-up" href="#"><img src="/assets/imgs/template/google-play-btn.png" alt="transp" /></Link></div>
+                                <div className="mt-30 text-start d-flex wow animate__animated animate__fadeIn"><Link className="hover-up mr-10" href="#" ><img src="/assets/imgs/template/appstore-btn.png" alt="transp" /></Link><Link className="hover-up" href="#"><img src="/assets/imgs/template/google-play-btn.png" alt="transp" /></Link></div>
                             </div>
                         </div>
                     </div>

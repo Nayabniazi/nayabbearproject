@@ -22,12 +22,13 @@ export default function Faqs1() {
                                 </div>
                             </div>
                         </div>
+                        
                         <div className="col-lg-6">
                             <div className="box-accordion">
                                 <Accordion />
                                 <div className="line-border mt-50 mb-50" />
                                 <h3 className="color-brand-2 wow animate__animated animate__fadeIn">Nead more help?</h3>
-                                <div className="mt-20"><Link className="btn btn-brand-1-big mr-20 wow animate__animated animate__fadeIn" href="/contact">Contact Us</Link><Link className="btn btn-link-medium wow animate__animated animate__fadeIn" href="#">Learn
+                                <div className="mt-20"><Link className="btn btn-brand-1-big mr-20 wow animate__animated animate__fadeIn" href="/contact"style={{backgroundColor:'orange'}}>Contact Us</Link><Link className="btn btn-link-medium wow animate__animated animate__fadeIn" href="#">Learn
                                     More
                                     <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />

@@ -19,7 +19,7 @@ export default function TrackParcel() {
                                 <form action="#">
                                     <div className="form-group">
                                         <input className="form-control" type="text" placeholder="Your package tracking number" />
-                                        <input className="btn btn-brand-1 btn-track" type="submit" defaultValue="Track Package" />
+                                        <input className="btn btn-brand-1 btn-track" type="submit" defaultValue="Track Package" style={{backgroundColor:'orange'}}/>
                                     </div>
                                 </form>
                             </div>
@@ -90,7 +90,7 @@ export default function TrackParcel() {
                 </div>
                 <section className="section pt-100">
                     <div className="container">
-                        <div className="text-center"><span className="btn btn-tag color-grey-900 wow animate__animated animate__fadeIn">Our Features</span>
+                        <div className="text-center"><span className="btn btn-tag color-grey-900 wow animate__animated animate__fadeIn"style={{backgroundColor:'orange'}}>Our Features</span>
                             <h2 className="color-brand-2 mb-15 mt-20 wow animate__animated animate__fadeIn">Why choose us</h2>
                         </div>
                         <div className="row mt-60">
@@ -163,7 +163,7 @@ export default function TrackParcel() {
                                     <Accordion />
                                     <div className="line-border mt-50 mb-50" />
                                     <h3 className="color-brand-2 wow animate__animated animate__fadeIn">Nead more help?</h3>
-                                    <div className="mt-20"><Link className="btn btn-brand-1-big mr-20 wow animate__animated animate__fadeIn" href="/contact">Contact Us</Link><Link className="btn btn-link-medium wow animate__animated animate__fadeIn" href="#">Learn More
+                                    <div className="mt-20"><Link className="btn btn-brand-1-big mr-20 wow animate__animated animate__fadeIn" href="/contact"style={{backgroundColor:'orange'}}>Contact Us</Link><Link className="btn btn-link-medium wow animate__animated animate__fadeIn" href="#">Learn More
                                         <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                                         </svg></Link></div>
@@ -244,7 +244,7 @@ export default function TrackParcel() {
                                                     </div>
                                                 </div>
                                                 <div className="col-md-12">
-                                                    <input className="btn btn-brand-1-big" type="submit" defaultValue="Submit Now" />
+                                                    <input className="btn btn-brand-1-big" type="submit" defaultValue="Submit Now" style={{backgroundColor:'orange'}}/>
                                                 </div>
                                             </div>
                                         </form>

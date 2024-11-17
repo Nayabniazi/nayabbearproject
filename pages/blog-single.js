@@ -9,7 +9,7 @@ export default function BlogSingle() {
                 <section className="section">
                     <div className="container">
                         <div className="content-detail">
-                            <div className="box-pageheader-1 box-pageheader-services text-start pb-30"><span className="btn btn-tag wow animate__animated animate__fadeIn">Our Services</span>
+                            <div className="box-pageheader-1 box-pageheader-services text-start pb-30"><span className="btn btn-tag wow animate__animated animate__fadeIn"style={{backgroundColor:'orange'}}>Our Services</span>
                                 <h2 className="color-brand-2 mt-15 mb-25 wow animate__animated animate__fadeIn">Smooth Sailing: Tips for Shipping Cargo Internationally</h2>
                                 <div className="row align-items-center">
                                     <div className="col-lg-6 mb-30">
@@ -133,7 +133,7 @@ export default function BlogSingle() {
                                                     </div>
                                                 </div>
                                                 <div className="col-md-12">
-                                                    <input className="btn btn-brand-1-big" type="submit" defaultValue="Submit Now" />
+                                                    <input className="btn btn-brand-1-big" type="submit" defaultValue="Submit Now" style={{backgroundColor:'orange'}}/>
                                                 </div>
                                             </div>
                                         </form>

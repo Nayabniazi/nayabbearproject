@@ -24,7 +24,8 @@ export default function Hero1Slider() {
                 className="swiper-wrapper"
             >
                 <SwiperSlide>
-                    <div className="banner-1" style={{ backgroundImage: 'url(assets/imgs/page/homepage1/banner.png)' }}>
+
+                <div className="banner-1" style={{ backgroundImage: 'url(assets/imgs/page/homepage1/banner.png)' }}>
                         <div className="container">
                             <div className="row align-items-center">
                                 <div className="col-lg-12">
@@ -38,9 +39,9 @@ export default function Hero1Slider() {
                                         </div>
                                     </div>
                                     <div className="box-button mt-30">
-                                        <Link className="btn btn-brand-1-big hover-up mr-40 wow animate__animated animate__fadeInUp" href="#">Calculate Package</Link>
+                                        <Link className="btn btn-brand-1-big hover-up mr-40 wow animate__animated animate__fadeInUp" href="#"style={{backgroundColor:'orange'}}>Calculate Package</Link>
                                         <a className="btn btn-play popup-youtube hover-up wow animate__animated animate__fadeInUp" onClick={() => setOpen(true)}>
-                                            <img className="wow animate__animated animate__fadeInUp" src="/assets/imgs/template/icons/play.svg" alt="" />How it work
+                                            <img className="wow animate__animated animate__fadeInUp" src="/assets/imgs/template/icons/play.svg" alt=""style={{ backgroundColor: 'orange', borderRadius: '50%', padding: '2px' }} />How it work
                                             ?</a></div>
 
                                 </div>
@@ -63,8 +64,8 @@ export default function Hero1Slider() {
                                                 and objectives is what drives mutual success.</p>
                                         </div>
                                     </div>
-                                    <div className="box-button mt-30"><Link className="btn btn-brand-1-big hover-up mr-40 wow animate__animated animate__fadeInUp" href="#">Calculate Package</Link><a className="btn btn-play popup-youtube hover-up wow animate__animated animate__fadeInUp" onClick={() => setOpen(true)}><img className="wow animate__animated animate__fadeInUp" src="/assets/imgs/template/icons/play.svg" alt="" />How it work
-                                        ?</a></div>
+                                    <div className="box-button mt-30"><Link className="btn btn-brand-1-big hover-up mr-40 wow animate__animated animate__fadeInUp" href="#"style={{backgroundColor:'orange'}}>Calculate Package</Link><a className="btn btn-play popup-youtube hover-up wow animate__animated animate__fadeInUp" onClick={() => setOpen(true)}><img className="wow animate__animated animate__fadeInUp" src="/assets/imgs/template/icons/play.svg" alt="" style={{ backgroundColor: 'orange', borderRadius: '50%', padding: '2px' }}
+                                       />How it work ?</a></div>
                                 </div>
                                 <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="vfhzo499OeA" onClose={() => setOpen(false)} />
                             </div>
@@ -74,5 +75,12 @@ export default function Hero1Slider() {
             </Swiper>
             <div className="swiper-pagination swiper-pagination-banner" />
         </>
+
+
+
+
+
+
+                       
     )
 }

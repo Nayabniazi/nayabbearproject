@@ -69,7 +69,7 @@ export default function News2Slider() {
                 </SwiperSlide>
                 <SwiperSlide className="wow animate__animated animate__fadeIn">
                     <div className="card-blog-grid hover-up">
-                        <div className="card-image"><Link href="/blog-single"><img src="/assets/imgs/page/homepage2/news2.png" alt="transp" /></Link><Link className="btn btn-border-brand-1 mr-15" href="/blog">Shipping</Link></div>
+                        <div className="card-image"><Link href="/blog-single"><img src="/assets/imgs/page/homepage2/news2.png" alt="transp" /></Link><Link className="btn btn-border-brand-1 mr-15" href="/blog"style={{backgroundColor:'orange'}}>Shipping</Link></div>
                         <div className="card-info"><Link href="/blog-single">
                             <h5 className="color-brand-2">How to find reliable logistics company in
                                 China and Asia</h5>
@@ -89,7 +89,7 @@ export default function News2Slider() {
                 </SwiperSlide>
                 <SwiperSlide className="wow animate__animated animate__fadeIn">
                     <div className="card-blog-grid hover-up">
-                        <div className="card-image"><Link href="/blog-single"><img src="/assets/imgs/page/homepage2/news3.png" alt="transp" /></Link><Link className="btn btn-border-brand-1 mr-15" href="/blog">Shipping</Link></div>
+                        <div className="card-image"><Link href="/blog-single"><img src="/assets/imgs/page/homepage2/news3.png" alt="transp" /></Link><Link className="btn btn-border-brand-1 mr-15" href="/blog"style={{backgroundColor:'orange'}}>Shipping</Link></div>
                         <div className="card-info"><Link href="/blog-single">
                             <h5 className="color-brand-2">How to find reliable logistics company in
                                 China and Asia</h5>
@@ -109,7 +109,7 @@ export default function News2Slider() {
                 </SwiperSlide>
                 <SwiperSlide className="wow animate__animated animate__fadeIn">
                     <div className="card-blog-grid hover-up">
-                        <div className="card-image"><Link href="/blog-single"><img src="/assets/imgs/page/homepage2/news2.png" alt="transp" /></Link><Link className="btn btn-border-brand-1 mr-15" href="/blog">Shipping</Link></div>
+                        <div className="card-image"><Link href="/blog-single"><img src="/assets/imgs/page/homepage2/news2.png" alt="transp" /></Link><Link className="btn btn-border-brand-1 mr-15" href="/blog"style={{backgroundColor:'orange'}}>Shipping</Link></div>
                         <div className="card-info"><Link href="/blog-single">
                             <h5 className="color-brand-2">How to find reliable logistics company in
                                 China and Asia</h5>

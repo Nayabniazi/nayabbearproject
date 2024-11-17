@@ -41,7 +41,7 @@ export default function Hero3() {
                                         have worked together to expand our network of partners to deliver reliability and
                                         consistency. We’ve also made significant strides to tightly integrate technology
                                         with our processes, giving our clients greater visibility into every engagement.</p>
-                                    <div className="box-button mt-50"><Link className="btn btn-brand-1-big hover-up mr-40 mb-30 wow animate__animated animate__fadeIn" href="#">Calculate Package</Link><a className="btn btn-play popup-youtube hover-up mb-30 wow animate__animated animate__fadeIn" onClick={() => setOpen(true)}><img src="/assets/imgs/template/icons/play.svg" alt="" />How it work ?</a></div>
+                                    <div className="box-button mt-50"><Link className="btn btn-brand-1-big hover-up mr-40 mb-30 wow animate__animated animate__fadeIn" href="#"style={{backgroundColor:'orange'}}>Calculate Package</Link><a className="btn btn-play popup-youtube hover-up mb-30 wow animate__animated animate__fadeIn" onClick={() => setOpen(true)}><img src="/assets/imgs/template/icons/play.svg" alt="" />How it work ?</a></div>
                                 </div>
                                 <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="vfhzo499OeA" onClose={() => setOpen(false)} />
                             </div>

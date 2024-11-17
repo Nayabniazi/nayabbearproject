@@ -46,7 +46,7 @@ export default function HeaderNewsletter({ handleMobileMenuOpen }) {
                 <div className="container-sub">
                     <div className="main-header">
                         <div className="header-left">
-                            <div className="header-logo"><Link className="d-flex" href="/"><Image src="/img/pic.png.png" alt="Ecom" width={100} height={70} /></Link></div>
+                            <div className="header-logo"><Link className="d-flex" href="/"><Image src="/img/bear.png.png" alt="Ecom" width={100} height={70} /></Link></div>
                             <div className="header-nav">
                                 <nav className="nav-main-menu d-none d-sm-block">
                                     <ul className="main-menu">

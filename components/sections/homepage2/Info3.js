@@ -41,7 +41,7 @@ export default function Info3() {
                                             design trends meet hand-crafted templates.</p>
                                     </div>
                                 </div>
-                                <div className="box-info-bottom-img box-info-bottom-img-2">
+                                <div className="box-info-bottom-img box-info-bottom-img-2"style={{backgroundColor:'black'}}>
                                     <div className="image-play"><img className="mb-15" src="/assets/imgs/template/icons/play.svg" alt="transp" /></div>
                                     <div className="info-play">
                                         <h4 className="color-white mb-15 wow animate__animated animate__fadeIn">We have 25 years

@@ -50,7 +50,7 @@ export default function Register() {
                                         <div className="form-group mt-30">
                                             <div className="d-flex align-items-center justify-content-between">
                                                 <div className="box-button-form-login">
-                                                    <input className="btn btn-brand-1-big mr-20" type="submit" defaultValue="Create Account" />
+                                                    <input className="btn btn-brand-1-big mr-20" type="submit" defaultValue="Create Account"style={{backgroundColor:'orange'}} />
                                                 </div>
                                                 <div className="box-text-form-login"><span className="font-xs color-grey-500">Already have an account?</span><Link className="font-xs color-brand-2" href="/login">Sign In</Link></div>
                                             </div>

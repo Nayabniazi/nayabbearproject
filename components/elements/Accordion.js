@@ -23,7 +23,7 @@ export default function Accordion() {
             <div className="accordion" id="accordionFAQ">
                 <div className="accordion-item wow animate__animated animate__fadeIn">
                     <h5 className="accordion-header" onClick={() => handleToggle(1)}>
-                        <button className={isActive.key == 1 ? "accordion-button text-heading-5 " : "accordion-button text-heading-5 collapsed"}>How can I return an item
+                        <button className={isActive.key == 1 ? "accordion-button text-heading-5 " : "accordion-button text-heading-5 collapsed"}style={{backgroundColor:'orange'}}>How can I return an item
                             purchased online?</button>
                     </h5>
                     <div className={isActive.key == 1 ? "accordion-collapse" : "accordion-collapse collapse"}>
@@ -37,7 +37,7 @@ export default function Accordion() {
                 </div>
                 <div className="accordion-item wow animate__animated animate__fadeIn">
                     <h5 className="accordion-header" onClick={() => handleToggle(2)}>
-                        <button className={isActive.key == 2 ? "accordion-button text-heading-5 " : "accordion-button text-heading-5 collapsed"}>Can I cancel or change
+                        <button className={isActive.key == 2 ? "accordion-button text-heading-5 " : "accordion-button text-heading-5 collapsed"}style={{backgroundColor:'black'}}>Can I cancel or change
                             my order?</button>
                     </h5>
                     <div className={isActive.key == 2 ? "accordion-collapse" : "accordion-collapse collapse"}>
@@ -51,7 +51,7 @@ export default function Accordion() {
                 </div>
                 <div className="accordion-item wow animate__animated animate__fadeIn">
                     <h5 className="accordion-header" onClick={() => handleToggle(3)}>
-                        <button className={isActive.key == 3 ? "accordion-button text-heading-5 " : "accordion-button text-heading-5 collapsed"}>I have promotional or
+                        <button className={isActive.key == 3 ? "accordion-button text-heading-5 " : "accordion-button text-heading-5 collapsed"}style={{backgroundColor:'black'}}>I have promotional or
                             discount code?</button>
                     </h5>
                     <div className={isActive.key == 3 ? "accordion-collapse" : "accordion-collapse collapse"}>
@@ -64,7 +64,7 @@ export default function Accordion() {
                 </div>
                 <div className="accordion-item wow animate__animated animate__fadeIn">
                     <h5 className="accordion-header" onClick={() => handleToggle(4)}>
-                        <button className={isActive.key == 4 ? "accordion-button text-heading-5 " : "accordion-button text-heading-5 collapsed"}>What are the delivery
+                        <button className={isActive.key == 4 ? "accordion-button text-heading-5 " : "accordion-button text-heading-5 collapsed"}style={{backgroundColor:'black'}}>What are the delivery
                             types you use?</button>
                     </h5>
                     <div className={isActive.key == 4 ? "accordion-collapse" : "accordion-collapse collapse"}>
@@ -79,7 +79,7 @@ export default function Accordion() {
                 </div>
                 <div className="accordion-item wow animate__animated animate__fadeIn">
                     <h5 className="accordion-header" onClick={() => handleToggle(5)}>
-                        <button className={isActive.key == 5 ? "accordion-button text-heading-5 " : "accordion-button text-heading-5 collapsed"}>How can I pay for my
+                        <button className={isActive.key == 5 ? "accordion-button text-heading-5 " : "accordion-button text-heading-5 collapsed"}style={{backgroundColor:'black'}}>How can I pay for my
                             purchases?</button>
                     </h5>
                     <div className={isActive.key == 5 ? "accordion-collapse" : "accordion-collapse collapse"}>

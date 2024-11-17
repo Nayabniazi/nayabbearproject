@@ -11,9 +11,9 @@ export default function ComingSoon() {
                         <div className="row align-items-center">
                             <div className="col-lg-5 mb-30">
                                 <div className="box-comingsoon-left">
-                                    <div className="box-count box-count-square mb-45">
+                                    <div className="box-count box-count-square mb-45"style={{backgroundColor:'orange'}}>
                                         <div className="deals-countdown">
-                                            <Countdown endDateTime={currentTime.setDate(currentTime.getDate() + 2)} />
+                                            <Countdown endDateTime={currentTime.setDate(currentTime.getDate() + 2)}style={{backgroundColor:'orange'}} />
                                         </div>
                                     </div>
                                     <h3 className="color-brand-2 wow animate__animated animate__fadeIn">Get Notified<br className="d-none d-lg-block" />When We Launch</h3>
@@ -21,7 +21,7 @@ export default function ComingSoon() {
                                         <form action="#">
                                             <div className="form-group">
                                                 <input className="form-control" type="text" placeholder="Enter your email" />
-                                                <input className="btn btn-brand-1 btn-track" type="submit" defaultValue="Notify me" />
+                                                <input className="btn btn-brand-1 btn-track" type="submit" defaultValue="Notify me"style={{backgroundColor:'orange'}} />
                                             </div>
                                         </form>
                                     </div>

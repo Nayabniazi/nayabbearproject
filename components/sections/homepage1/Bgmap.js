@@ -5,8 +5,8 @@ export default function Bgmap() {
             <div className="section bg-map d-block">
                 <div className="container">
                     <div className="box-map">
-                        <iframe className="wow animate__animated animate__fadeIn" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3179.960389549842!2d-83.76408938441998!3d37.15364135542302!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x884352a00e70879f%3A0x1ad06ed33b7003c!2sIangar!5e0!3m2!1svi!2s!4v1678013229780!5m2!1svi!2s" height={420} style={{ border: 0 }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
-                        <div className="map-info"><img className="mb-25 wow animate__animated animate__fadeIn" src="/assets/imgs/template/logo.svg" alt="transp" />
+                                      <iframe className="wow animate__animated animate__fadeIn" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3179.960389549842!2d-83.76408938441998!3d37.15364135542302!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x884352a00e70879f%3A0x1ad06ed33b7003c!2sIangar!5e0!3m2!1svi!2s!4v1678013229780!5m2!1svi!2s" height={420} style={{ border: 0 }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"/>
+                        <div className="map-info"><img className="mb-25 wow animate__animated animate__fadeIn" src="/img/bear.png.png"width={200} height={100}  alt="transp" />
                             <p className="color-grey-700 mb-25 wow animate__animated animate__fadeIn">4517 Washington Ave.
                                 Manchester, Kentucky 39495</p>
                             <p className="color-grey-700 mb-10 wow animate__animated animate__fadeIn">
